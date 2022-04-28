@@ -2,12 +2,12 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Home } from '../pages/Home';
-import Dashboard from '../pages/404';
+import { ErrorPage } from '../pages/Error';
 
 const MainRoutes: React.FC = () => (
   <Routes>
     <Route path='/' element={<Home />} />
-    <Route path='/dashboard' element={<Dashboard />} />
+    <Route path='/*' element={<ErrorPage />} />
   </Routes>
 );
 
