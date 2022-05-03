@@ -49,6 +49,10 @@ export const TextHighlight = styled.i`
   @media (max-width: 885px) {
     font-size: 24px;
   }
+
+  @media (min-height: 610px) {
+    font-size: 16px;
+  }
 `;
 
 const appearFromRight = keyframes`
