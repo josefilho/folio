@@ -35,7 +35,7 @@ export const Title = styled.h1`
   font-size: 3rem;
   color: #fff;
 
-  margin-top: 10vh;
+  margin-top: 15vh;
 
   animation: ${appearFromTop} 1s;
 `;
