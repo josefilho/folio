@@ -36,6 +36,13 @@ const Header: React.FC = () => {
         >
           College
         </NavLink>
+        <NavLink
+          to='/quasar'
+          active={active === 'quasar'}
+          onClick={() => setActive('quasar')}
+        >
+          Quasar
+        </NavLink>
       </div>
     </Container>
   );
