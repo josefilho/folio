@@ -1,13 +1,13 @@
 import { Container, Title, Message, Image } from './styles';
 
-import constructionImg from '../../assets/construction.svg';
+import error404 from '../../assets/404.svg';
 
 const ErrorPage = () => {
   return (
     <Container>
-      <Title>Coming Soon...</Title>
-      <Message>Under construction</Message>
-      <Image src={constructionImg} alt='construction' />
+      <Title>Opa!</Title>
+      <Message>Algo de errado não está certo...</Message>
+      <Image src={error404} alt='error404' />
     </Container>
   );
 };

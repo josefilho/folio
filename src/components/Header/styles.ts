@@ -18,12 +18,15 @@ interface NavLinkProps {
 
 export const NavLink = styled(Link)<NavLinkProps>`
   flex: 1;
-  padding: 0 0 0 32px;
   font-size: 24px;
   font-weight: 500;
   text-decoration: none;
   color: ${props => (props.active ? '#6A2CF2' : '#EDE6FF')};
   transition: 0.2s ease-in-out;
+
+  & + a {
+    padding: 0 0 0 32px;
+  }
 
   &:hover {
     color: ${props =>
